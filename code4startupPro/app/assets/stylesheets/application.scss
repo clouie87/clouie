@@ -1,0 +1,36 @@
+@import "materialize";
+@import "toastr";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+    
+  .header {
+  	background-color: #5A6368;
+  } 
+
+  .footer {
+    background-color: #5A6368;
+  } 
+
+  .container {
+    width: 95%;
+  } 
+
+  .avatar-small {
+    width: 50px;
+  }
+
+  .avatar-medium {
+    width: 80px;
+  }
+
+  .mask {
+    z-index: 99;
+  }
